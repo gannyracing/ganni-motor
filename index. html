@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Servis Motor Panggilan Jakarta 24 Jam | Montir Terdekat - Ganni Motor</title>
+
+<meta name="description" content="Servis motor panggilan Jakarta 24 jam. Ganni Motor siap datang maksimal 30 menit. Mekanik profesional, fast response & bergaransi.">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="montir panggilan jakarta, bengkel motor terdekat, servis motor jakarta, motor mogok jakarta">
+<meta name="author" content="Ganni Motor">
+<link rel="canonical" href="https://gannyracing.github.io/ganni-motor/">
+
+<meta property="og:title" content="Servis Motor Panggilan Jakarta 24 Jam">
+<meta property="og:description" content="Mekanik datang ke lokasi Anda. Fast response & bergaransi.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gannyracing.github.io/ganni-motor/">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  <style>
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background:#d3e1fd;
+  color:##323eff
+}
+  h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 5px;
+}
+  h1 {
+  font-weight: 200;
+  font-size: 20px;
+}
+  h2 {
+  font-weight: 500;
+}
+  p {
+  font-weight: 500;
+  line-height: 1.6;
+}
+.card {
+  font-weight: 400;
+}
+/* ANIMASI */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 5s ease forwards;
+}
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* HERO */
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.95)),
+  url('https://images.unsplash.com/photo-1558981806-ec527fa84c39');
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.brand {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color:#22c55e;
+  letter-spacing: 5px;
+}
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 24px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration:none;
+  transition: 1s;
+}
+.btn-wa { 
+  background:#22c55e; 
+  color:#022c22; 
+}
+.btn-wa:hover {
+  background:#16a34a;
+}
+.btn-map { 
+  background:#38bdf8; 
+  color:#022c22; 
+}
+.btn-map:hover {
+  background:#0ea5e9;
+}
+
+/* NAV */
+nav {
+  background:#020617;
+  padding: 12px;
+  text-align: center;
+  border-bottom:1px solid #1f2937;
+}
+
+nav a {
+  color:#94a3b8;
+  margin: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:#22c55e;
+}
+
+/* SECTION */
+section {
+  padding: 20px 10px;
+  border-bottom: 1px solid #959595;
+}
+
+h2 { 
+  color: #347c07;
+}
+
+/* CARD */
+.card {
+  background:#1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 10px;
+  border-left: 4px solid #22c55e;
+  color:#cbd5f5;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(0.5px);
+  background:#607caa;
+}
+
+/* FLOATING WA */
+.floating-wa {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background:#22c55e;
+  color:#022c22;
+  padding: 15px;
+  border-radius: 50px;
+  font-weight:bold;
+  box-shadow: 0 0 15px rgba(34,197,94,0.4);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 10px;
+  background:#020617;
+  color:#64748b;
+}
+</style>
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="layanan.html">Layanan</a>
+  <a href="harga.html">Harga</a>
+  <a href="kontak.html">Kontak</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero fade-in">
+  <img src="logo.png" class="logo" alt="Ganni Motor Logo">
+
+  <h1>GANNI MOTOR  Motor Panggilan Jakarta 24 Jam</h1>
+
+  <p>Montir panggilan Jakarta Timur siap datang ke lokasi Anda dengan cepat.</p>
+
+  <p class="brand">GANNI MOTOR</p>
+  <p style="font-weight:300;">Repair Your Motorbike Anywhere</p>
+
+  <a class="btn btn-wa" href="https://wa.me/6289637591994" target="_blank">
+    🚀 Mekanik OTW
+  </a>
+
+  <a class="btn btn-map" href="https://maps.app.goo.gl/7cpzYrABWeR8qn9Z6" target="_blank">
+    Lokasi
+  </a>
+</div>
+
+<!-- SEO SECTION -->
+<section class="fade-in">
+  <h2>Bengkel Motor Terdekat Jakarta Timur</h2>
+  <p>
+    Ganni Motor adalah bengkel motor panggilan Jakarta Timur yang siap datang ke lokasi Anda saat motor mogok, baik di rumah, kantor, maupun di jalan.
+  </p>
+  <p>
+    Kami melayani servis injeksi, servis CVT, perbaikan kelistrikan, hingga perbaikan mesin langsung di tempat tanpa perlu ke bengkel.
+  </p>
+  <p>
+    Area layanan meliputi Cakung, Duren Sawit, Klender, dan seluruh wilayah Jakarta Timur dengan respon cepat maksimal 30 menit.
+  </p>
+</section>
+
+<section class="fade-in">
+  <h2>Montir Panggilan Jakarta Siap OTW</h2>
+  <p>
+    Butuh montir panggilan Jakarta? Ganni Motor siap meluncur ke lokasi Anda dengan teknisi profesional dan peralatan lengkap.
+  </p>
+</section>
+
+<section class="fade-in">
+  <h2>Kenapa Pilih Kami?</h2>
+  <div class="card">⚡ Datang Maksimal 30 Menit</div>
+  <div class="card">☎ Fast Response</div>
+  <div class="card">🔧 Teknisi Profesional</div>
+</section>
+
+<section class="fade-in">
+  <h2>Layanan</h2>
+  <div class="card">Servis Injeksi • Servis CVT • Kelistrikan • Home Service</div>
+</section>
+
+<section class="fade-in">
+  <h2>Harga Jasa</h2>
+  <div class="card">Servis Ringan: Rp 50.000</div>
+  <div class="card">Tune Up: Rp 80.000</div>
+</section>
+
+<section class="fade-in">
+  <h2>Butuh Cepat?</h2>
+  <div class="card" style="text-align:center;">
+    <a class="btn btn-wa" href="https://wa.me/6289637591994" target="_blank">
+      Hubungi Sekarang
+    </a>
+  </div>
+</section>
+
+<a class="floating-wa" href="https://wa.me/6289637591994" target="_blank">
+  💬
+</a>
+
+<footer>
+  © 2026 Ganni Motor
+</footer>
+  <footer>REPAIR YOUR MOTORBIKE ANYWHERE</footer>
+
+</body>
+</html>
