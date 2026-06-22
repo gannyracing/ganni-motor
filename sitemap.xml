@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-
-<url>
-<loc>https://gannyracing.github.io/ganni-motor/</loc>
-<priority>1.0</priority>
-</url>
-
+  <url>
+    <loc>https://gannyracing.github.io/ganni-motor/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
