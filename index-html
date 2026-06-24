@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KF3THQD2');</script>
+    <!-- Google tag (gtag.js) -->
+    <script async 
+    src="https://www.googletagmanager.com/gtag/js?id=AW-18263124524">
+    </script>
+     <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18263124524');
+     </script>
+    <!-- Event snippet for Montir Panggilan Jakarta Timur conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18263124524/QIUwCPnn1cMcEKzUxIRE',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="geo.region" content="ID-JK">
+<meta name="geo.placename" content="Jakarta Timur">
+<meta name="geo.position" content="-6.208226;106.946475">
+<meta name="ICBM" content="-6.208226,106.946475">
+<link rel="icon" type="image/png" href="logo.png"> 
+<title>Servis Motor Panggilan Jakarta Timur & Bekasi 24 Jam | Ganni Motor</title>  
+<meta name="description"
+content="Servis motor panggilan Jakarta Timur & Bekasi 24 jam. Melayani Cakung, Pulogebang, Penggilingan, Duren Sawit, Klender dan Bekasi. Mekanik datang ke lokasi, cepat dan bergaransi.">
+  <link rel="canonical" href="https://gannimotor.my.id/">
+<meta name="keywords" content="servis motor panggilan jakarta, montir panggilan jakarta timur, bengkel motor panggilan cakung, servis motor bekasi, motor mogok jakarta, servis injeksi motor, servis cvt motor">  
+<meta name="robots" content="index, follow">  
+<meta property="og:title" content="Servis Motor Panggilan Jakarta 24 Jam">  
+<meta property="og:description" content="Montir datang ke lokasi, cepat & bergaransi">  
+<meta property="og:url" content="https://gannimotor.my.id/">  
+<meta property="og:type" content="website">  
+<meta property="og:site_name" content="Ganni Motor">  
+<meta property="og:image" content="https://gannimotor.my.id/logo.png">  
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="id_ID">  
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">  
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "@id":"https://gannimotor.my.id/#business",
+  "name": "Ganni Motor",
+  "logo": "https://gannyracing.github.io/ganni-motor/logo.png",
+  "image": "https://gannyracing.github.io/ganni-motor/logo.png",
+  "url": "https://gannymotor.my.id/",
+  "telephone": "+62895321555559",
+  "priceRange": "$",
+  "contactPoint": {
+  "@type": "ContactPoint",
+  "telephone": "+62895321555559",
+  "contactType": "customer service",
+  "areaServed": "ID",
+  "availableLanguage": "Indonesian"
+},
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Jakarta Timur",
+    "addressCountry": "ID"
+  },
+    "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -6.208226,
+    "longitude": 106.946475
+  },
+ "openingHours": "Mo-Su 00:00-23:59",
+
+  "description": "Servis motor panggilan Jakarta 24 jam. Mekanik datang ke lokasi untuk servis motor, motor mogok, servis injeksi, servis CVT, ganti oli dan perbaikan kelistrikan.",
+
+  "hasMap": "https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7",
+
+  "areaServed": [
+    "Jakarta Timur",
+    "Cakung",
+    "Pulogebang",
+    "Penggilingan",
+    "Duren Sawit",
+    "Klender",
+    "Rawamangun",
+    "Pondok bambu",
+    "Harapan Indah",
+    "Jatinegara",
+    "Bekasi",
+  ],
+
+  "serviceArea": {
+    "@type": "Place",
+    "name": "Jakarta Timur dan Bekasi"
+  },
+
+  "paymentAccepted": "Cash, Transfer Bank",
+  "currenciesAccepted": "IDR",
+
+  "sameAs": [
+    "https://wa.me/62895321555559",
+    "https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7"
+  ]
+}
+</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Berapa lama mekanik datang?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maksimal 30 menit untuk area Jakarta Timur dan sekitarnya."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Apakah buka 24 jam?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ya, Ganni Motor melayani servis motor panggilan 24 jam."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Apakah bisa servis motor di rumah?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bisa. Mekanik kami datang langsung ke rumah, kantor, atau lokasi motor mogok."
+      }
+    }
+  ]
+}
+</script>
+  <style>    
+      :root {   --primary: #abd927; --secondary: #ff6600;  --dark: #020617;  --light: #cbd5f5; }      
+      body { margin: 0;    font-family: 'Oswald', sans-serif; background: #020617;  color: #e2e8f0; overflow-x: hidden; } 
+  
+      h1, h2, .brand {  font-family: 'Orbitron', sans-serif; letter-spacing: 3px; }    
+      h1 { font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 10px; }    
+      h2 { font-size: 1.2rem; color: #ff6600; margin-top: 30px; }    
+      p { line-height: 1.8; color: #e2e8f0;  }    
+/* ANIMASI */    
+.fade-in {    
+    opacity: 0;    
+    transform: translateY(20px);    
+    animation: fadeUp 1.2s ease-out forwards;    
+}    
+
+@keyframes fadeUp {    
+    to { opacity: 1; transform: translateY(0); }    
+}    
+
+/* NAV */    
+nav {    
+    background: var(--dark);    
+    padding: 15px;    
+    text-align: center;    
+    position: sticky;    
+    top: 0;    
+    z-index: 1000;    
+}    
+nav a {    
+    color: #94a3b8;    
+    margin: 0 10px;    
+    text-decoration: none;    
+    font-size: 0.9rem;    
+    font-weight: 600;    
+    border-bottom: 3px solid #94a3b8;
+}     
+nav a:hover { color: var(--primary); }    
+
+/* HERO */    
+.hero {    
+    padding: 60px 20px;    
+    text-align: center;    
+    background: linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.9)),    
+                url('banner.png') center/cover;    
+    color: white;    
+}    
+.logo {    
+    max-width: 250px;    
+    height: auto;    
+    margin-bottom: 20px;    
+}    
+.brand {    
+    font-size: 1.9rem;    
+    color: var(--primary);    
+    margin: 10px 0;    
+}    
+
+/* BUTTONS */    
+.btn-group { margin-top: 25px; }    
+.btn {    
+    display: inline-block;    
+    padding: 12px 24px;    
+    border-radius: 10px;    
+    font-weight: bold;    
+    text-decoration: none;   
+    border-bottom: 5px solid #94a3b8; 
+    transition: 0.3s;    
+    margin: 5px;    
+}    
+.btn-wa { background: var(--primary); color: #052e16; }    
+.btn-wa:hover { background: #94a3b8; transform: scale(1.05); }    
+.btn-map { background: var(--primary); color: #082f49; }    
+
+/* CONTENT SECTION */
+
+section {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+  
+}
+
+.card {    
+    background: #1e293b;    
+    padding: 15px;    
+    border-radius: 12px;    
+    margin: 10px 0;    
+    border-left: 5px solid #ff6600;    
+    border-bottom: 5px solid #ff6600;
+    color: var(--light);    
+    transition: 0.3s;    
+}    
+.card:hover { background: #25d366; }    
+
+/* FLOATING WA */    
+.floating-wa {
+     position: fixed; bottom: 25px; right: 20px;
+     background-color: #abd927; color: black;
+     padding: 15px 20px; border-radius: 12px;
+     text-decoration: none; font-weight: bold;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+     z-index: 9999; display: flex; align-items: center; gap: 10px;
+     font-family: 'Orbitron', sans-serif;
+}
+.floating-wa:hover {
+  background-color: #25d366;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+  border-left: 4px solid var(--primary);    
+  border-bottom: 4px solid #25d366;
+}
+footer {    
+    text-align: center;    
+    padding: 30px 10px;    
+    background: var(--dark);    
+    color: #ff6600;    
+    font-size: 0.7rem;    
+}
+.service-img {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+</style>  
+  </head>    
+    <body>  
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KF3THQD2"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <nav>   
+     <a href="#home">Home</a>  
+     <a href="#layanan">Layanan</a>  
+     <a href="#harga">Harga</a>  
+     <a href="#faq">FAQ</a>  
+     <a href="#lokasi">lokasi</a>
+     <a href="#kontak">Kontak</a>  
+</nav>   
+  <div class="hero fade-in" id="home">  
+    <img src="logo.png" class="logo"  
+         alt="Logo Ganni Motor Servis Motor Panggilan Jakarta Timur"  
+         loading="lazy">  
+    <h1>Servis Motor Panggilan Jakarta Timur & Bekasi 24 Jam</h1>  
+    <p class="brand">GANNI MOTOR</p>    
+    <p style="font-weight:300; letter-spacing:1px;">* REPAIR YOUR MOTORBIKE ANYWHERE *</p>  <div class="btn-group">    
+    <a class="btn btn-wa"
+   href="https://wa.me/62895321555559"
+   onclick="return gtag_report_conversion('https://wa.me/62895321555559');"
+   target="_blank">
+      Chat WA
+    </a>
+        <a class="btn btn-map" href="https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7" target="_blank">📍 LOKASI</a>    
+    </div>  
+    </div> <section class="fade-in">    
+    <h2>Bengkel Motor Terdekat Jakarta Timur</h2>    
+    <p>Ganni Motor adalah solusi <strong>bengkel motor panggilan Jakarta Timur</strong>. Kami hadir langsung ke rumah, kantor, atau saat Anda mengalami kendala di jalan.</p>  <div class="card">⚡ Respon Cepat (Maks 30 Menit)</div>    
+<div class="card">🔧 Mekanik Berpengalaman & Profesional</div>    
+<div class="card">💰 Harga Transparan & Kompetitif</div>  
+</section>    
+<section id="layanan" class="fade-in">  
+    <h2>Layanan Kami</h2>  
+    <div class="card">🛠 Servis Injeksi & Pembersihan Throttle Body</div>  
+    <div class="card">🛵 Servis CVT Matic (Bongkar & Bersihkan)</div>  
+    <div class="card">⚡ Perbaikan Kelistrikan & Ganti Aki</div>  
+    <div class="card">⚙️ Ganti Oli & Sparepart Original</div>  
+</section>    
+  <section id="harga" class="fade-in">   
+    <h2>Daftar Harga Servis Motor</h2>  <div class="card">  
+    💰 Ganti Oli Mesin Mulai  <strong>Rp 20.000</strong>.
+</div>  
+
+<div class="card">  
+    🔧 Servis Ringan Mulai  <strong>Rp 50.000</strong>. 
+</div>  
+
+<div class="card">  
+    ⚙️ Servis CVT Mulai  <strong>Rp 65.000</strong>  
+</div>  
+
+<div class="card">  
+    🛠️ Servis Injeksi Mulai  <strong>Rp 100.000</strong>  
+</div>  
+
+<p><small> *Harga dapat berubah sesuai jenis motor dan tingkat kerusakan.</small></p>
+<p style="text-align:center;">
+<a class="btn btn-wa"    
+    href="https://wa.me/62895321555559"
+   onclick="return gtag_report_conversion('https://wa.me/62895321555559');">
+Chat Sekarang
+</a>
+</p>
+</section>  
+ <section class="fade-in">  
+    <h2>Servis Motor Jakarta, Bekasi & Sekitarnya</h2>  
+<p> Kami melayani servis motor panggilan, siap memperbaiki motor anda <strong> DIMANA PUN & KAPAN PUN</strong> disaat anda membutuhkan, 
+  Apapun merk Motornya,
+  <strong> HONDA, YAMAHA, SUZUKI, KAWASAKI, BAJAJ, TVS, VESPA MATIK,DLL</strong>.Kami perbaiki..!!!  
+    Melayani kendala motor mogok di jalan,kantor,maupun  
+    servis rutin di rumah (Home Service).  
+</p>
+
+</section>  
+  <section class="fade-in">  
+  <h2>Servis Motor Panggilan Jakarta</h2>    <p>  
+    Ganni Motor melayani servis motor panggilan  
+    di Cakung, Pulogebang, Penggilingan,  
+    Duren Sawit, Klender, Jatinegara  
+    dan seluruh Jakarta Timur.  
+  </p>  <p>  
+Layanan meliputi servis Honda Beat,  
+Vario, Scoopy, PCX, NMAX, Aerox,  
+Mio dan motor injeksi lainnya.  
+</p>
+</section>  
+<section id="faq" class="fade-in">  
+<h2>Pertanyaan Umum</h2>  
+<div class="card">❓ Berapa lama mekanik datang? → Maks 30 menit</div>    
+<div class="card">❓ Bisa servis motor dirumah..? → Bisa Banget</div>    
+<div class="card">🤦‍♂️ Motor saya mogok Bang..! →  SERLOK...</div>   </section>    <section class="fade-in">    
+  <h2>Testimoni Pelanggan</h2>    
+  <div class="card">⭐⭐⭐⭐⭐ "Rekomended pokoknya, saya share di grup WA yaa" - <strong>Bu Jamilah - warga Rorotan </strong> </div>    
+  <div class="card">⭐⭐⭐⭐⭐ "Pelayanan ramah dan informatif. Sepanjang servis motor di rumah, mekaniknya mau ngejelasin detail kerusakan dan kasih tips merawat mesin supaya awet. Hasil kerjanya memuaskan, motor jadi enteng lagi."<strong>Pak Burhan - Komplek Bea Cukai,Pd Bambu</strong></div>    
+  <div class="card">⭐⭐⭐⭐⭐ "Jam 11 malam Motor Aerox saya kode 12, kata 👨‍🔧 ; gak perlu ganti,saya perbaiki aja yaa,  👨‍⚕ : jarang ada montir yang masih mau akal-akalin" 👍👍<strong>Teguh - Duren Sawit</strong></div>  
+  <div class="card">⭐⭐⭐⭐⭐ "Mekanik nya Open mind banget,sangat mengedukasi". - <strong>Mba Ratih-Kramat jati</strong></div>    
+  <div class="card">⭐⭐⭐⭐⭐ "Motor saya mogok,Chat, gak sampe 20 menit mekanik dateng. sekitar 90 menit motor saya hidup lagi" - <strong>Mba Rani - Rawamangun</strong></div> 
+</section>    
+  <section class="fade-in" style="text-align:center; margin-bottom: 50px;">    
+    <h2>Butuh Bantuan Darurat?</h2>    
+    <p>Jangan dorong motor Anda! Klik tombol di bawah:</p>    
+  <a class="btn btn-wa"
+href="https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya"
+onclick="return gtag_report_conversion('https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya');"
+style="padding: 18px 40px;">HUBUNGI SEKARANG</a>
+</section>    
+    <a class="floating-wa"
+href="https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya"
+onclick="return gtag_report_conversion('https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya');"
+target="_blank">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path d="M12 0C5.373 0 0 5.373 0 12c0 2.112.548 4.168 1.589 5.973L0 24l6.236-1.557C7.96 23.332 9.96 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.815c-1.75 0-3.465-.472-4.962-1.363l-.356-.211-3.676.919.981-3.585-.231-.371C2.553 15.655 2 13.842 2 12c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/>
+    </svg>
+    <span>Chat Kami</span>
+    </a>
+<section id="lokasi" class="fade-in">
+  <h2>Lokasi Layanan Kami</h2>    
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.419820262573!2d106.9464747!3d-6.208226499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698bb1a1b836c1%3A0x5d399e675efb7a39!2sSERVICE%20MOTOR%20PANGGILAN%20feat%20FIAN%20MOTOR!5e0!3m2!1sid!2sid!4v1781796245546!5m2!1sid!2sid" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="card" style="text-align: center;">  
+    <p>Klik tombol di bawah untuk melihat lokasi kami di Google Maps:</p>  
+    <a href="https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7"   
+       target="_blank"   
+       class="btn btn-map"   
+       style="display: inline-block; padding: 15px 30px; text-decoration: none;">  
+       📍 Lokasi Bengkel Motor Panggilan Jakarta Timur
+    </a>  
+  </div>  
+</section>  
+<section id="kontak" class="fade-in">  
+    <h2>Hubungi Kami di</h2>  <div class="card">  
+    📞 +62 895-3215-5559  
+</div>  
+
+<div class="card">  
+    📍 Cakung - Pulogebang - Jakarta Timur  
+</div>  
+<a class="btn btn-wa"
+   href="https://wa.me/62895321555559"
+   onclick="return gtag_report_conversion('https://wa.me/62895321555559');"
+   target="_blank">
+      Chat WA
+</a>
+  <a class="btn btn-map" href="#faq">
+❓ FAQ
+</a>
+
+</section>  
+  <footer>    
+    <p>&copy; 2026 GANNI MOTOR - [ REPAIR YOUR MOTORBIKE ANYWHERE ]</p>    
+    <p style="font-size: 15px; opacity: 0.5;">JAKARTA - INDONESIA</p>    
+</footer>    
+</body>    
+</html>
