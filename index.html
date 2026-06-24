@@ -14,10 +14,24 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'AW-18263124524');
+     </script>
+    <!-- Event snippet for Montir Panggilan Jakarta Timur conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18263124524/QIUwCPnn1cMcEKzUxIRE',
+      'event_callback': callback
+  });
+  return false;
+}
 </script>
-  
 <meta charset="UTF-8">  
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <meta name="geo.region" content="ID-JK">
@@ -28,15 +42,15 @@
 <title>Servis Motor Panggilan Jakarta Timur & Bekasi 24 Jam | Ganni Motor</title>  
 <meta name="description"
 content="Servis motor panggilan Jakarta Timur & Bekasi 24 jam. Melayani Cakung, Pulogebang, Penggilingan, Duren Sawit, Klender dan Bekasi. Mekanik datang ke lokasi, cepat dan bergaransi.">
-<link rel="canonical" href="https://gannyracing.github.io/ganni-motor/">  
+  <link rel="canonical" href="https://gannimotor.my.id/">
 <meta name="keywords" content="servis motor panggilan jakarta, montir panggilan jakarta timur, bengkel motor panggilan cakung, servis motor bekasi, motor mogok jakarta, servis injeksi motor, servis cvt motor">  
 <meta name="robots" content="index, follow">  
 <meta property="og:title" content="Servis Motor Panggilan Jakarta 24 Jam">  
 <meta property="og:description" content="Montir datang ke lokasi, cepat & bergaransi">  
-<meta property="og:url" content="https://gannyracing.github.io/ganni-motor/">  
+<meta property="og:url" content="https://gannimotor.my.id/">  
 <meta property="og:type" content="website">  
 <meta property="og:site_name" content="Ganni Motor">  
-<meta property="og:image" content="https://gannyracing.github.io/ganni-motor/logo.png">  
+<meta property="og:image" content="https://gannimotor.my.id/logo.png">  
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="id_ID">  
@@ -45,11 +59,11 @@ content="Servis motor panggilan Jakarta Timur & Bekasi 24 jam. Melayani Cakung, 
 {
   "@context": "https://schema.org",
   "@type": "AutoRepair",
-  "@id":"https://gannyracing.github.io/ganni-motor/#business",
+  "@id":"https://gannimotor.my.id/#business",
   "name": "Ganni Motor",
   "logo": "https://gannyracing.github.io/ganni-motor/logo.png",
   "image": "https://gannyracing.github.io/ganni-motor/logo.png",
-  "url": "https://gannyracing.github.io/ganni-motor/",
+  "url": "https://gannymotor.my.id/",
   "telephone": "+62895321555559",
   "priceRange": "$",
   "contactPoint": {
@@ -64,14 +78,12 @@ content="Servis motor panggilan Jakarta Timur & Bekasi 24 jam. Melayani Cakung, 
     "addressLocality": "Jakarta Timur",
     "addressCountry": "ID"
   },
-
-  "geo": {
+    "geo": {
     "@type": "GeoCoordinates",
     "latitude": -6.208226,
     "longitude": 106.946475
   },
-
-  "openingHours": "Mo-Su 00:00-23:59",
+ "openingHours": "Mo-Su 00:00-23:59",
 
   "description": "Servis motor panggilan Jakarta 24 jam. Mekanik datang ke lokasi untuk servis motor, motor mogok, servis injeksi, servis CVT, ganti oli dan perbaikan kelistrikan.",
 
@@ -283,8 +295,13 @@ footer {
     <h1>Servis Motor Panggilan Jakarta Timur & Bekasi 24 Jam</h1>  
     <p class="brand">GANNI MOTOR</p>    
     <p style="font-weight:300; letter-spacing:1px;">* REPAIR YOUR MOTORBIKE ANYWHERE *</p>  <div class="btn-group">    
-    <a class="btn btn-wa" href="https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya" target="_blank">🚀 SIAP MLUNCUR</a>    
-    <a class="btn btn-map" href="https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7" target="_blank">📍 LOKASI</a>    
+    <a class="btn btn-wa"
+   href="https://wa.me/62895321555559"
+   onclick="return gtag_report_conversion('https://wa.me/62895321555559');"
+   target="_blank">
+      Chat WA
+    </a>
+        <a class="btn btn-map" href="https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7" target="_blank">📍 LOKASI</a>    
     </div>  
     </div> <section class="fade-in">    
     <h2>Bengkel Motor Terdekat Jakarta Timur</h2>    
@@ -318,8 +335,9 @@ footer {
 
 <p><small> *Harga dapat berubah sesuai jenis motor dan tingkat kerusakan.</small></p>
 <p style="text-align:center;">
-<a class="btn btn-wa"
-href="https://wa.me/62895321555559?text=Saya%20ingin%20servis%20motor">
+<a class="btn btn-wa"    
+    href="https://wa.me/62895321555559"
+   onclick="return gtag_report_conversion('https://wa.me/62895321555559');">
 Chat Sekarang
 </a>
 </p>
@@ -361,9 +379,15 @@ Mio dan motor injeksi lainnya.
   <section class="fade-in" style="text-align:center; margin-bottom: 50px;">    
     <h2>Butuh Bantuan Darurat?</h2>    
     <p>Jangan dorong motor Anda! Klik tombol di bawah:</p>    
-    <a class="btn btn-wa" href="https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya" style="padding: 18px 40px;">HUBUNGI SEKARANG</a>    
+  <a class="btn btn-wa"
+href="https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya"
+onclick="return gtag_report_conversion('https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya');"
+style="padding: 18px 40px;">HUBUNGI SEKARANG</a>
 </section>    
-    <a class="floating-wa" href="https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya" target="_blank">
+    <a class="floating-wa"
+href="https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya"
+onclick="return gtag_report_conversion('https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya');"
+target="_blank">
     <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
     <path d="M12 0C5.373 0 0 5.373 0 12c0 2.112.548 4.168 1.589 5.973L0 24l6.236-1.557C7.96 23.332 9.96 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.815c-1.75 0-3.465-.472-4.962-1.363l-.356-.211-3.676.919.981-3.585-.231-.371C2.553 15.655 2 13.842 2 12c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/>
@@ -391,11 +415,11 @@ Mio dan motor injeksi lainnya.
 <div class="card">  
     📍 Cakung - Pulogebang - Jakarta Timur  
 </div>  
-
-<a class="btn btn-wa"  
-   href="https://wa.me/62895321555559"  
-   target="_blank">  
-      Chat WA   
+<a class="btn btn-wa"
+   href="https://wa.me/62895321555559"
+   onclick="return gtag_report_conversion('https://wa.me/62895321555559');"
+   target="_blank">
+      Chat WA
 </a>
   <a class="btn btn-map" href="#faq">
 ❓ FAQ
