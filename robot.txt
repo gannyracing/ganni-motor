@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gannyracing.github.io/ganni-motor/sitemap.xml
+Sitemap: https://gannimotor.my.id/sitemap.xml
