@@ -190,13 +190,60 @@ nav a {
 nav a:hover { color: var(--primary); }    
 
 /* HERO */    
-.hero {    
-    padding: 60px 20px;    
-    text-align: center;    
-    background: linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.9)),    
-                url('banner.png') center/cover;    
-    color: white;    
-}    
+    .hero{
+    padding:60px 20px;
+    text-align:center;
+    color:white;
+    position:relative;
+    overflow:hidden;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:
+    linear-gradient(rgba(15,23,42,.75),rgba(15,23,42,.85)),
+    url("image-background/bg.webp");
+    background-size:cover;
+    background-position:center;
+    animation:bgSlide 24s infinite;
+    z-index:-1;
+}
+
+@keyframes bgSlide{
+
+0%,25%{
+background:
+linear-gradient(rgba(15,23,42,.75),rgba(15,23,42,.85)),
+url("image-background/bg1.webp");
+background-size:cover;
+background-position:center;
+}
+
+26%,50%{
+background:
+linear-gradient(rgba(15,23,42,.75),rgba(15,23,42,.85)),
+url("image-background/bg2.webp");
+background-size:cover;
+background-position:center;
+}
+
+51%,75%{
+background:
+linear-gradient(rgba(15,23,42,.75),rgba(15,23,42,.85)),
+url("image-background/bg3.webp");
+background-size:cover;
+background-position:center;
+}
+
+76%,100%{
+background:
+linear-gradient(rgba(15,23,42,.75),rgba(15,23,42,.85)),
+url("image-background/bg4.webp");
+background-size:cover;
+background-position:center;
+}
 .logo {    
     max-width: 250px;    
     height: auto;    
