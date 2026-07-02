@@ -44,9 +44,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   content="-6.208226,106.946475">  
 <link rel="icon" type="image/webp" href="faticon.webp">  
   <title>Servis Motor Panggilan Jakarta Timur & Bekasi 24 Jam | Ganni Motor</title>    
-<meta name="description"   
-  content="Servis motor panggilan Jakarta Timur & Bekasi 24 jam. Melayani Cakung, Pulogebang, Penggilingan, Duren Sawit, Klender dan Bekasi. Mekanik datang ke lokasi, cepat dan bergaransi.">   
-  <link rel="canonical"   
+<meta name="description"
+content="Ganni Motor melayani servis motor panggilan Jakarta Timur & Bekasi 24 jam. Mekanik datang ke rumah, kantor, atau lokasi motor mogok. Servis injeksi, CVT, ganti oli, kelistrikan, dan perbaikan semua jenis motor."> <link rel="canonical"   
     href="https://gannimotor.my.id/">  
     <meta name="keywords"   
   content="servis motor panggilan jakarta, montir panggilan jakarta timur, bengkel motor panggilan cakung, servis motor bekasi, motor mogok jakarta, servis injeksi motor, servis cvt motor">    
@@ -74,6 +73,8 @@ content="Logo Ganni Motor">
     content="630">  
 <meta property="og:locale"   
   content="id_ID">    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">    
 <script type="application/ld+json">  
 {  
@@ -163,8 +164,32 @@ content="Logo Ganni Motor">
       }  
     }  
   ]  
-}  
-</script>   
+}
+  </script>    
+    
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {
+      "@type":"ListItem",
+      "position":1,
+      "name":"Home",
+      "item":"https://gannimotor.my.id/"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "url":"https://gannimotor.my.id/",
+  "name":"Ganni Motor"
+}
+</script>
     <style>      
       :root {  
         --primary: #abd927;  
@@ -291,14 +316,23 @@ padding: 20px;
   border-left: 4px solid var(--primary);      
   border-bottom: 4px solid #25d366;  
 }  
-footer {      
-    text-align: center;      
-    padding: 30px 10px;      
-    background: var(--dark);      
-    color: #ff6600;      
-    font-size: 0.7rem;      
-}  
-  .service-img {  
+footer {
+    text-align: center;
+    padding: 30px 10px;
+    background: var(--dark);
+    color: #ff6600;
+    font-size: 0.7rem;
+}
+
+footer a{
+    color:#abd927;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#fff;
+}
+.service-img {  
     width: 100%;  
     max-width: 700px;  
     display: block;  
@@ -315,6 +349,7 @@ img{
     height:auto;  
 }
 .hero-banner{
+    position: relative;
     width:100%;
     max-width:1000px;
     height:auto;
@@ -373,9 +408,11 @@ img{
       
     <div class="hero-banner">
     <img src="banner.webp"
-         class="banner"
-         alt="Banner Ganni Motor"
-         loading="eager">
+     class="banner"
+     alt="Banner Ganni Motor"
+     width="1200"
+     height="630"
+     loading="eager">
 
     <div class="logo-box">
         <img src="logo-master.webp"
