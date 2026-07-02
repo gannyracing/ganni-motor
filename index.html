@@ -17,20 +17,24 @@ gtag('config', 'AW-18263124524');
 </script>  
     <!-- Event snippet for Montir Panggilan Jakarta Timur conversion page  
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->  
-  <script>  
-   function gtag_report_conversion(url) {  
-  var callback = function () {  
-    if (typeof(url) != 'undefined') {  
-      window.location = url;  
-    }  
-  };  
-  gtag('event', 'conversion', {  
-      'send_to': 'AW-18263124524/QIUwCPnn1cMcEKzUxIRE',  
-      'event_callback': callback  
-  });  
-  return false;  
-}  
-</script>  
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (url) {
+      window.open(url, '_blank');
+    }
+  };
+
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18263124524/QIUwCPnn1cMcEKzUxIRE',
+    'event_callback': callback
+  });
+
+  setTimeout(callback, 800);
+
+  return false;
+}
+</script>    
 <meta charset="UTF-8">    
 <meta name="viewport"   
   content="width=device-width, initial-scale=1.0">   
@@ -378,7 +382,7 @@ img{
      <a href="#layanan">Layanan</a>    
      <a href="#harga">Harga</a>    
      <a href="#faq">FAQ</a>    
-     <a href="#lokasi">lokasi</a>  
+     <a href="#lokasi">Lokasi</a>  
      <a href="#kontak">Kontak</a>    
      <a href="tentang-kami.html">Tentang Kami</a>
      <a href="privacy-policy.html">Privasi</a>
@@ -444,7 +448,8 @@ img{
 <p style="text-align:center;">  
 <a class="btn btn-wa"      
     href="https://wa.me/62895321555559"  
-   onclick="return gtag_report_conversion('https://wa.me/62895321555559');">  
+   onclick="return gtag_report_conversion('https://wa.me/62895321555559');" 
+   target="_blank">
 Chat Sekarang  
 </a>  
 </p>  
@@ -486,8 +491,10 @@ Mio dan motor injeksi lainnya.
     <p>Jangan dorong motor Anda! Klik tombol di bawah:</p>      
   <a class="btn btn-wa"  
 href="https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya"  
-onclick="return gtag_report_conversion('https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya');"  
-style="padding: 18px 40px;">HUBUNGI SEKARANG</a>  
+onclick="return gtag_report_conversion('https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya');"
+ target="_blank"
+style="padding: 18px 40px;">
+      HUBUNGI SEKARANG</a>  
 </section>      
     <a class="floating-wa"  
 href="https://wa.me/62895321555559?text=Halo%20Ganni%20Motor,%20saya%20butuh%20servis%20motor%20di%20lokasi%20saya"  
