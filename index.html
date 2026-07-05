@@ -56,6 +56,7 @@ content="Ganni Motor melayani servis motor panggilan Jakarta Timur & Bekasi 24 j
 content="#020617">  
   <meta name="robots"   
     content="index, follow">    
+    <meta name="author" content="Ganni Motor">
 <meta property="og:title"   
   content="Servis Motor Panggilan Jakarta 24 Jam">    
 <meta property="og:description"   
@@ -69,15 +70,16 @@ content="#020617">
 <meta property="og:image"
 content="https://gannimotor.my.id/banner.webp">    
 <meta property="og:image:width"   
-  content="1200">  
-<meta property="og:image:alt"  
-content="Logo Ganni Motor">  
-<meta property="og:image:height"   
-    content="630">  
-<meta property="og:locale"   
-  content="id_ID">    
+  content="1200">
+    <meta property="og:image:alt"  
+content="Logo Ganni Motor">
+    <meta property="og:image:height"   
+    content="630">
+    <meta property="og:locale"   
+  content="id_ID">
+    <meta http-equiv="content-language" content="id">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="apple-touch-icon" href="logo-master.webp">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">    
 <script type="application/ld+json">  
 {  
@@ -266,9 +268,7 @@ nav a{
     padding:10px 20px;  
     font-size:15px;  
     border-radius:12px;  
-    margin:6px;  
-}  
-  .btn{  
+    margin:6px;
     display:inline-block;  
     padding:14px 26px;  
     border-radius:10px;  
@@ -276,9 +276,7 @@ nav a{
     font-weight:bold;  
     transition:.3s;  
 }  
-  
-    
-.btn-wa { background: var(--primary); color: #052e16; }      
+ .btn-wa { background: var(--primary); color: #052e16; }      
 .btn-wa:hover { background: #94a3b8; transform: scale(1.05); }      
 .btn-map { background: var(--primary); color: #082f49; }      
   
@@ -372,6 +370,42 @@ img{
     margin-top:0;
     opacity:.9;
 }
+  .work-photo{
+    max-width:1100px;
+    margin:60px auto;
+    padding:0 20px;
+}
+
+ .work-photo img{
+    width:100%;
+    display:block;
+    border-radius:18px;
+    box-shadow:0 15px 40px rgba(0,0,0,.45);
+    transition:.4s ease;
+ }
+        .work-photo img:hover{
+    transform:scale(1.02);
+}
+
+.work-photo p{
+    text-align:center;
+    color:#cbd5e1;
+    margin-top:15px;
+    font-size:1rem;
+}
+
+.gallery-banner{
+    max-width:1200px;
+    margin:70px auto;
+    padding:0 20px;
+}
+
+.gallery-banner img{
+    width:100%;
+    border-radius:18px;
+    display:block;
+    box-shadow:0 15px 40px rgba(0,0,0,.45);
+}
   </style>     
 </head>      
     <body>    
@@ -413,15 +447,13 @@ img{
            onclick="return gtag_report_conversion('https://wa.me/62895321555559');"
            target="_blank">
             💬 Chat WhatsApp
-       </a>       
-       <a class="btn btn-map"
-           href="https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7"
-           target="_blank">
-            📍 LOKASI
-        </a>
+       </a>
+        <a class="btn btn-map"
+   href="https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7"
+   onclick="gtag('event','click_map');"
+   target="_blank">
     </div>
-       
-    </div> <section class="fade-in">      
+        <section class="fade-in">      
     <h2>Bengkel Motor Terdekat Jakarta Timur</h2>      
     <p>Ganni Motor adalah solusi <strong>bengkel motor panggilan Jakarta Timur</strong>. Kami hadir langsung ke rumah, kantor, atau saat Anda mengalami kendala di jalan.</p>  <div class="card">⚡ Respon Cepat (Maks 30 Menit)</div>      
 <div class="card">🔧 Mekanik Berpengalaman & Profesional</div>      
@@ -433,9 +465,22 @@ img{
     <div class="card">🛵 Servis CVT Matic (Bongkar & Bersihkan)</div>    
     <div class="card">⚡ Perbaikan Kelistrikan & Ganti Aki</div>    
     <div class="card">⚙️ Ganti Oli & Sparepart Original</div>    
-</section>      
-  <section id="harga" class="fade-in">     
-    <h2>Daftar Harga Servis Motor</h2>  <div class="card">    
+</section>
+        <section class="work-photo fade-in">
+<img src="mekanik-hero.webp"
+    width="1200"
+     height="800"
+alt="Mekanik Ganni Motor sedang melakukan servis motor"
+loading="lazy">
+
+<p>
+Pemeriksaan dilakukan secara teliti.
+</p>
+</section>
+  <section id="harga" 
+      class="fade-in">     
+    <h2>Daftar Harga Servis Motor</h2>  
+      <div class="card">    
     💰 Ganti Oli Mesin Mulai  <strong>Rp 20.000</strong>.  
 </div>    <div class="card">    
     🔧 Servis Ringan Mulai  <strong>Rp 50.000</strong>.   
@@ -443,7 +488,21 @@ img{
     ⚙️ Servis CVT Mulai  <strong>Rp 65.000</strong>    
 </div>    <div class="card">    
     🛠️ Servis Injeksi Mulai  <strong>Rp 100.000</strong>    
-</div>    <p><small> *Harga dapat berubah sesuai jenis motor dan tingkat kerusakan.</small></p>  
+</div>    <p><small> *Harga dapat berubah sesuai jenis motor dan tingkat kerusakan.</small></p> 
+  </section>
+      <section class="work-photo fade-in">
+<img src="mekanik-hero1.webp"
+    width="1200"
+     height="800"
+alt="Servis motor panggilan Ganni Motor"
+loading="lazy">
+
+<p>
+Yamaha AEROX Kode 12 </p>
+<p>
+    Setiap pekerjaan dikerjakan dengan teliti demi menjaga kualitas servis.
+</p>
+      </section>
 <p style="text-align:center;">  
 <a class="btn btn-wa"      
     href="https://wa.me/62895321555559"  
@@ -477,14 +536,36 @@ Mio dan motor injeksi lainnya.
 <h2>Pertanyaan Umum</h2>    
 <div class="card">❓ Berapa lama mekanik datang? → ⚡ Respon Cepat sesuai lokasi</div>      
 <div class="card">❓ Bisa servis motor dirumah..? → Bisa Banget</div>      
-<div class="card">🤦‍♂️ Motor saya mogok Bang..! →  SERLOK...</div>   </section>    <section class="fade-in">      
+<div class="card">🤦‍♂️ Motor saya mogok Bang..! →  SERLOK...</div>   
+</section>    
+        <section class="work-photo fade-in">
+<img src="mekanik-hero2.webp"
+    width="1200"
+     height="800"
+alt="Mekanik Ganni Motor bekerja"
+loading="lazy">
+
+<p>
+Kepercayaan pelanggan dibangun melalui hasil kerja yang rapi dan profesional.
+</p>
+</section>
+        <section class="fade-in">      
   <h2>Testimoni Pelanggan</h2>      
   <div class="card">⭐⭐⭐⭐⭐ "Rekomended pokoknya, saya share di grup WA yaa" - <strong>Bu Jamilah - warga Rorotan </strong> </div>      
   <div class="card">⭐⭐⭐⭐⭐ "Pelayanan ramah dan informatif. Sepanjang servis motor di rumah, mekaniknya mau ngejelasin detail kerusakan dan kasih tips merawat mesin supaya awet. Hasil kerjanya memuaskan, motor jadi enteng lagi."<strong>Pak Burhan - Komplek Bea Cukai,Pd Bambu</strong></div>      
   <div class="card">⭐⭐⭐⭐⭐ "Jam 11 malam Motor Aerox saya kode 12, kata 👨‍🔧 ; gak perlu ganti,saya perbaiki aja yaa,  👨‍⚕ : jarang ada montir yang masih mau akal-akalin" 👍👍<strong>Teguh - Duren Sawit</strong></div>    
   <div class="card">⭐⭐⭐⭐⭐ "Mekanik nya Open mind banget,sangat mengedukasi". - <strong>Mba Ratih-Kramat jati</strong></div>      
   <div class="card">⭐⭐⭐⭐⭐ "Motor saya mogok,Chat, gak sampe 20 menit mekanik dateng. sekitar 90 menit motor saya hidup lagi" - <strong>Mba Rani - Rawamangun</strong></div>   
-</section>      
+</section>
+        <section class="work-photo fade-in">
+<img src="mekanik-hero3.webp"
+    width="1200"
+     height="800"
+alt="Mekanik Ganni Motor bekerja"
+loading="lazy">
+<p> Pengerjaan Motor Customer yang Mogok di Jalan. Kami juga siap melakukan pengerjaan dimanapun.
+</p>
+</section> 
   <section class="fade-in" style="text-align:center; margin-bottom: 50px;">      
     <h2>Butuh Bantuan Darurat?</h2>      
     <p>Jangan dorong motor Anda! Klik tombol di bawah:</p>      
@@ -509,13 +590,12 @@ target="_blank">
   <h2>Lokasi Layanan Kami</h2>      
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.419820262573!2d106.9464747!3d-6.208226499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698bb1a1b836c1%3A0x5d399e675efb7a39!2sSERVICE%20MOTOR%20PANGGILAN%20feat%20FIAN%20MOTOR!5e0!3m2!1sid!2sid!4v1781796245546!5m2!1sid!2sid" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
   <div class="card" style="text-align: center;">    
-    <p>Klik tombol di bawah untuk melihat lokasi kami di Google Maps:</p>    
-    <a href="https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7"     
-       target="_blank"     
-       class="btn btn-map"     
-       style="display: inline-block; padding: 15px 30px; text-decoration: none;">    
-       📍 Lokasi Bengkel Motor Panggilan Jakarta Timur  
-    </a>    
+    <p>Klik tombol di bawah untuk melihat lokasi kami di Google Maps:</p>
+      <a href="https://maps.app.goo.gl/bjyYZzVJG4ueTMwb7"
+   onclick="gtag('event','click_map');"
+   target="_blank"
+   class="btn btn-map"
+   style="display:inline-block;padding:15px 30px;text-decoration:none;">
   </div>    
 </section>    
 <section id="kontak" class="fade-in">    
@@ -534,6 +614,26 @@ target="_blank">
 ❓ FAQ  
 </a>  
 </section>    
+        <section class="work-photo fade-in">
+<img src="mekanik-hero4.webp"
+    width="1200"
+     height="800"
+alt="Mekanik Ganni Motor"
+loading="lazy">
+
+<p>
+Garansi servis 7 hari. Syarat dan ketentuan berlaku.
+</p>
+</section>
+        <section class="gallery-banner fade-in">
+<img src="galeri.webp"
+    width="1200"
+     height="800"
+alt="Galeri Ganni Motor"
+loading="lazy">
+<p> 👨‍🔧🛵🏍 REPAIR YOUR MOTORBIKE ANYWHERE 🛵🏍👨‍🔧
+</p>
+</section>
 <footer>
 
 <p><strong>GANNI MOTOR</strong></p>
@@ -550,7 +650,7 @@ Servis Motor Panggilan Jakarta Timur & Bekasi
 📞 0895-3215-55559
 </p>
 <p> 
-✉️ gannimotor@gmail.com
+✉️ ganny.racing@gmail.com
 </p>
 <p>
 
@@ -561,11 +661,8 @@ Servis Motor Panggilan Jakarta Timur & Bekasi
 <a href="syarat-ketentuan.html">Syarat & Ketentuan</a>
 
 </p>
-
 <p>
-
-© 2026 Ganni Motor
-
+    © <script>document.write(new Date().getFullYear())</script> Ganni Motor
 </p>
 
 </footer>
