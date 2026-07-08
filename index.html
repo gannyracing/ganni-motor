@@ -21,7 +21,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
   function gtag_report_conversion(url) {
   var callback = function () {
     if (url) {
-      window.open(url, "_blank");
+      window.location.href = url;
     }
   };
   gtag('event', 'conversion', {  
