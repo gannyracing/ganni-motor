@@ -33,7 +33,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 }
   </script>
   <meta charset="UTF-8">
-  <meta name="google-site-verification" content="p6AIxOCpM_JbY1HdEkM1I09uIXYpVzm1sKJDdicy6T0" />
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
   <meta name="geo.region"
@@ -279,7 +278,39 @@ white-space:nowrap;
     color: var(--primary);
     margin: 10px 0;
   }
+   .counter-section{
+     display:grid;
+     grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+     gap:20px;
+     max-width:1200px;
+     margin:40px auto;
+     padding:20px;
+}
+   .counter-box{
+    background:#0f172a;
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+    border:2px solid rgba(255,102,0,.25);
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+    .counter-box:hover{
+    transform:translateY(-8px);
+    border-color:#abd927;
+}
 
+    .counter-box h2{
+    font-size:42px;
+    margin:10px 0;
+    color:#ff6600;
+    font-family:'Orbitron',sans-serif;
+}
+  .counter-box p{
+  margin:0;
+  color:#cbd5e1;
+  font-size:15px;
+}
 /* BUTTONS */
   .btn-group {
     margin-top: 25px;
@@ -309,6 +340,7 @@ white-space:nowrap;
   }
 
 /* CONTENT SECTION */
+  
   section {
     max-width: 800px;
     margin: 0 auto;
@@ -328,7 +360,12 @@ white-space:nowrap;
     transform:translateY(-5px);
     border-left:5px solid #abd927;
   }
-
+   .counter-icon{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+    margin-bottom:15px;
+}
 /* FLOATING WA */
   .floating-wa {
     position: fixed;
@@ -632,6 +669,8 @@ z-index:9998;
       height="0" width="0" style="display:none;visibility:hidden">
     </iframe>
   </noscript>
+  <div id="overlay"> 
+  </div>
   <header class="header">
 
 <button class="menu-btn" onclick="openMenu()">
@@ -742,14 +781,48 @@ Kami bantu diagnosa awal.
 </p>
 
 <img
-  src="mekanik-hero5.webp"
+  src="banner.webp"
   class="hero-image"
   alt="Mekanik Ganni Motor"
   loading="eager"
   fetchpriority="high"
 >
+    </div>
+  <section class="counter-section fade-in">
 
-</div>
+  <div class="counter-box">
+    <img src="icon.webp" class="counter-icon" alt="Motor Diservis">
+    <h2 class="counter" data-target="500">0</h2>
+    <p>Motor Diservis</p>
+  </div>
+
+  <div class="counter-box">
+    <img src="customer.webp" class="counter-icon" alt="Pelanggan Puas">
+    <h2 class="counter" data-target="500">0</h2>
+    <p>Pelanggan Puas</p>
+  </div>
+
+  <div class="counter-box">
+    <img src="mekanik.webp" class="counter-icon" alt="Pengalaman Mekanik">
+    <h2 class="counter" data-target="15">0</h2>
+    <p>Tahun Pengalaman</p>
+  </div>
+
+  <div class="counter-box">
+    <img src="lokasi.webp" class="counter-icon" alt="Area Layanan">
+    <h2>2</h2>
+    <p>Jakarta Timur & Bekasi</p>
+  </div>
+
+</section>
+  <section class="card fade-in" style="text-align:center">
+    <h2>💡 Tips Perawatan Motor</h2>
+    <p>🛢️ Lebih Baik <strong>GANTI OLI</strong> daripada <strong>GANTI MOTOR</strong>.</p>
+    <p>⚙️ Servis CVT rutin membuat tarikan lebih ringan, hemat BBM, dan bebas GREDEG.</p>
+    <p>🚨 Jangan tunggu motor mogok.Servis berkala jauh lebih murah daripada turun mesin.</p>
+</section>
+  
+  
   <section id="layanan" class="fade-in">
     <h2>Bengkel Motor Terdekat Jakarta Timur</h2>
     <p>Ganni Motor adalah solusi <strong>bengkel motor panggilan Jakarta Timur</strong>. Kami hadir langsung ke rumah, kantor, atau saat Anda mengalami kendala di jalan.</p>
@@ -809,7 +882,7 @@ Chat Sekarang
 </a>    
 </p>    
  <section class="fade-in">      
-    <h1>Servis Motor Jakarta, Bekasi & Sekitarnya</h1>      
+    <h2>Servis Motor Jakarta, Bekasi & Sekitarnya</h2>      
 <p>   Motor Mogok di Jalan atau di Rumah?<strong> DIMANA PUN & KAPAN PUN</strong> disaat anda membutuhkan,     
   Apapun merk Motornya,    
   <strong> HONDA, YAMAHA, SUZUKI, KAWASAKI, BAJAJ, TVS, VESPA MATIK,DLL</strong>.Kami perbaiki..!!!      
@@ -849,7 +922,7 @@ Mio dan motor injeksi lainnya.
 
 </section>
       <section class="work-photo fade-in">  
-<img src="mekanik-hero3.webp"  
+<img src="mekanik-hero2.webp"  
     width="1200"  
      height="800"  
 alt="Mekanik Ganni Motor bekerja"  
@@ -871,12 +944,13 @@ Kepercayaan pelanggan dibangun melalui hasil kerja yang rapi dan profesional.
             ⭐⭐⭐⭐⭐ "Motor saya mogok,Chat, gak sampe 20 menit mekanik dateng. sekitar 90 menit motor saya hidup lagi" - <strong>Mba Rani - Rawamangun - Mei 2026 </strong></div>     
 </section>  
         <section class="work-photo fade-in">  
-<img src="mekanik-hero2.webp"  
+<img src="mekanik-hero3.webp"  
     width="1200"  
      height="800"  
 alt="Mekanik Ganni Motor bekerja"  
-loading="lazy">  
-<p> Pengerjaan Motor Customer yang Mogok di Jalan. Kami juga siap melakukan pengerjaan dimanapun.  
+loading="lazy">
+          <p> Pengerjaan Motor di halaman rumah customer. </p>
+          <p> Kami juga siap melakukan pengerjaan dimanapun.  
 </p>  
  </section>
       <section id="motor-mogok" class="fade-in" style="text-align:center; margin-bottom: 50px;">     
@@ -919,9 +993,7 @@ target="_blank">
 </div>    <div class="card">      
     📍 PULOGEBANG - CAKUNG - JAKARTA TIMUR      
 </div>      
-  <div id="overlay">
-    
-  </div>
+  
 <a class="btn btn-wa"    
    href="https://wa.me/628985025546"    
    onclick="return gtag_report_conversion('https://wa.me/628985025546');"    
@@ -947,7 +1019,7 @@ target="_blank">
            height="800"
            alt="Galeri Ganni Motor"
            loading="lazy">
-         <p> * REPAIR YOUR MOTORBIKE ANYWHERE * 
+         <p>     * REPAIR YOUR MOTORBIKE ANYWHERE * 
            
          </p>
        </section>
@@ -963,7 +1035,7 @@ target="_blank">
           📞 628985025546
         </p>
         <p>
-          ✉️ ganny.racing@gmail.com
+          ✉️ gannimotor@gmail.com
         </p>
         <p>
           <a href="tentang-kami.html">Tentang Kami</a> |
@@ -1002,6 +1074,35 @@ document.addEventListener("click", function(e){
     closeMenu();
   }
 });
+  const counters=document.querySelectorAll(".counter");
+
+counters.forEach(counter=>{
+
+const update=()=>{
+
+const target=+counter.dataset.target;
+const count=+counter.innerText;
+
+const inc=Math.ceil(target/40);
+
+if(count<target){
+
+counter.innerText=count+inc;
+
+setTimeout(update,25);
+
+}else{
+
+counter.innerText=target+"+";
+
+}
+
+}
+
+update();
+
+});
 </script>
+  
     </body>
       </html>
