@@ -15,24 +15,22 @@
 
   gtag('config', 'AW-18323342797');
 </script>
-<!-- Event snippet for Montir Panggilan Jakarta Timur conversion page    
+<!-- Event snippet for Kontak conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-
 <script>
-  function gtag_report_conversion(url) {
+function gtag_report_conversion(url) {
   var callback = function () {
-    if (url) {
-      window.location.href = url;
+    if (typeof(url) != 'undefined') {
+      window.location = url;
     }
   };
-  gtag('event', 'conversion', {  
-    'send_to': 'AW-18323342797/p-SvCLL7npccEOCP_5VD',  
-    'event_callback': callback
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18323342797/78_iCPPl_NAcEM2LoKFE',
+      'event_callback': callback
   });
-  setTimeout(callback, 800);
-  return false;  
+  return false;
 }
-  </script>
+</script>
   <meta charset="UTF-8">
   <meta name="viewport"
     content="width=device-width, initial-scale=1.0">
